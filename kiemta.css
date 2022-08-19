@@ -1,42 +1,48 @@
-
-.card{
-    color: white;
+body{
+    background-color: cadetblue;
 }
 .card{
+    border: 1px solid orange;
+    height: 50px;
+    width: 450px;
+    border-radius: 10px;
+    margin-top: 20px ;
+    background-color:orange;
+    color: black;
+}
+.card-2{
+    list-style-type: none;
 }
 .icon{
+    text-align: center;
+    border: 1px solid orange;
+    height: 20px;
     width: 100px;
-    height: 30px;
-    border: 1px solid black;
     border-radius: 10px;
-    margin-left: 20px;
+    background-color: orange;
+    color: black;
+    font-size: 18px;
+    margin-top: 40px;
+    transition: width 2s;
 }
-.header{
+.card-2{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-
 }
-.card-1{
-    position: relative;
+.icon-1{
     width: 400px;
-    height: 400px;
+    height: 300px;
     border: 1px solid white;
-    margin-left: 20px;
-    list-style-type: none;
+    border-radius: 20px;
+    margin-left: 30px;
     margin-bottom: 30px;
     transition: width 2s;
 }
-.card-2{
-    position: absolute;
-    transform: translateY(-100%);
-    border: 1px solid white;
-    background-color: white;
-    width: 400px;
-    height: auto;
-    
+.icon-1:hover{
+    width: 420px;
 }
-.card-1:hover{
-  width: 450px;
+.icon-2{
+    transform: translateY(-200%);
 }
